@@ -39,14 +39,7 @@ Resultado verificado:
 [0, 1, 2, 3, 4, 5, 7, 10, 11, 20]
 ```
 
-A demonstração contém 28 eventos: 9 divisões, 10 casos-base e 9 intercalações. A saída completa está em [apresentacao/demo-saida.txt](apresentacao/demo-saida.txt).
-
-## Apresentação
-
-- [PowerPoint — 11 slides](apresentacao/merge-sort.pptx)
-- [Conteúdo dos slides em texto](apresentacao/slides.md)
-
-Como não havia slides anteriores na pasta, foi criada uma apresentação unificada a partir do código: intercalação, versão iterativa, versão recursiva, todos os passos da demonstração, resultado e análise de custo. O material específico usado em aula não foi fornecido; o exemplo segue o vetor e as operações indicados na imagem.
+A demonstração contém 28 eventos: 9 divisões, 10 casos-base e 9 intercalações.
 
 ## Revisão de custo
 
