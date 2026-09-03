@@ -8,7 +8,6 @@ export type PassoMergeSort = {
   direita?: number[];
 };
 
-/** Ordena sem alterar a entrada; o observador opcional permite demonstrar a execução. */
 export function mergeSortRecursivo(
   vet: number[],
   observar?: (passo: PassoMergeSort) => void,
