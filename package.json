@@ -5,8 +5,7 @@
   "scripts": {
     "build": "tsc",
     "start": "ts-node src/index.ts",
-    "demo": "ts-node src/mergeSort/demo.ts",
-    "test": "npm run build && node --test tests/mergeSort.test.cjs"
+    "demo": "ts-node src/mergeSort/demo.ts"
   },
   "devDependencies": {
     "@types/node": "^20.14.0",

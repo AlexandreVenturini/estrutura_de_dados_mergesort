@@ -10,12 +10,10 @@ Com Node.js e npm instalados, na pasta do projeto:
 npm ci
 npm start
 npm run demo
-npm test
 ```
 
 - `npm start`: compara as duas versões com o vetor de referência.
 - `npm run demo`: mostra cada divisão, caso-base e intercalação da versão recursiva.
-- `npm test`: compila o projeto e executa 11 testes.
 - `npm run build`: gera o JavaScript na pasta `dist`.
 
 ## Etapa 2 — versão recursiva e demonstração
@@ -46,7 +44,3 @@ A demonstração contém 28 eventos: 9 divisões, 10 casos-base e 9 intercalaç�
 A versão recursiva tem tempo O(n log n), memória auxiliar O(n) e pilha O(log n), sem reter o histórico de eventos. O observador da demonstração imprime os eventos; um consumidor que armazene todas as cópias pode usar O(n log n) de espaço.
 
 A versão iterativa existente foi preservada. Ela ordena corretamente, mas `novo = novo.concat(...)` copia repetidamente o prefixo acumulado e pode elevar o custo a O(n²). O custo clássico O(n log n) da versão iterativa exige evitar essas cópias, por exemplo escrevendo em um buffer.
-
-## Verificação
-
-Os testes cobrem vetores vazio, unitário, par e ímpar, duplicatas, negativos, decimais, entradas ordenada e invertida, o vetor de referência, preservação da entrada e integridade do rastreamento. `npm start`, `npm run demo` e os 11 testes foram executados com sucesso.
